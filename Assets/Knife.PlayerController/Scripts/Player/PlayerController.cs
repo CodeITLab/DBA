@@ -161,6 +161,8 @@ namespace KnifePlayerController
             defaultHandsHeadbobWeight = HandsHeadbobWeight;
 
             controlCameraPosition = ControlCamera.localPosition;
+
+            Cursor.lockState = CursorLockMode.Locked;
         }
 
         public void UpdateDefaultDeath()
