@@ -372,52 +372,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4279195}
   m_Mesh: {fileID: 4300000, guid: c58f251a22830404da819b10cd083dc1, type: 3}
---- !u!21 &5936182
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: UI Extensions/SoftMaskShader
-  m_Shader: {fileID: 4800000, guid: 5ef33a13c9059a243a3c8692239abf6b, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords: []
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _AlphaMask:
-        m_Texture: {fileID: 2800000, guid: 261409aba20271346b5c84dc9449e699, type: 3}
-        m_Scale: {x: 0.005235602, y: 0.00352572}
-        m_Offset: {x: -2.5431414, y: 1.8891054}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _ColorMask: 15
-    - _CutOff: 0
-    - _FlipAlphaMask: 0
-    - _HardBlend: 0
-    - _NoOuterClip: 0
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-  m_BuildTextureStacks: []
 --- !u!1 &12377596
 GameObject:
   m_ObjectHideFlags: 0
@@ -584,6 +538,38 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 12478007}
   m_Mesh: {fileID: 4300000, guid: c58f251a22830404da819b10cd083dc1, type: 3}
+--- !u!1 &14474073
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 14474074}
+  m_Layer: 0
+  m_Name: MedKit
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &14474074
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 14474073}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1328594283}
+  m_Father: {fileID: 482345376}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &14766930
 GameObject:
   m_ObjectHideFlags: 0
@@ -9248,6 +9234,68 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 221282361}
   m_Mesh: {fileID: 4300000, guid: c58f251a22830404da819b10cd083dc1, type: 3}
+--- !u!1001 &222373178
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1339598252}
+    m_Modifications:
+    - target: {fileID: 1936003878107028, guid: a136ff20b14b2b34c9510f9f650ccedf, type: 3}
+      propertyPath: m_Name
+      value: SHOTGUN_Ammo_Pickupable (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4378385746508442, guid: a136ff20b14b2b34c9510f9f650ccedf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10.078402
+      objectReference: {fileID: 0}
+    - target: {fileID: 4378385746508442, guid: a136ff20b14b2b34c9510f9f650ccedf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.5366136
+      objectReference: {fileID: 0}
+    - target: {fileID: 4378385746508442, guid: a136ff20b14b2b34c9510f9f650ccedf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -11.457376
+      objectReference: {fileID: 0}
+    - target: {fileID: 4378385746508442, guid: a136ff20b14b2b34c9510f9f650ccedf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4378385746508442, guid: a136ff20b14b2b34c9510f9f650ccedf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4378385746508442, guid: a136ff20b14b2b34c9510f9f650ccedf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4378385746508442, guid: a136ff20b14b2b34c9510f9f650ccedf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4378385746508442, guid: a136ff20b14b2b34c9510f9f650ccedf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4378385746508442, guid: a136ff20b14b2b34c9510f9f650ccedf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4378385746508442, guid: a136ff20b14b2b34c9510f9f650ccedf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a136ff20b14b2b34c9510f9f650ccedf, type: 3}
+--- !u!4 &222373179 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4378385746508442, guid: a136ff20b14b2b34c9510f9f650ccedf, type: 3}
+  m_PrefabInstance: {fileID: 222373178}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &224164829
 GameObject:
   m_ObjectHideFlags: 0
@@ -19774,52 +19822,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 373324845}
   m_Mesh: {fileID: 4300000, guid: c58f251a22830404da819b10cd083dc1, type: 3}
---- !u!21 &376616089
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: UI Extensions/SoftMaskShader
-  m_Shader: {fileID: 4800000, guid: 5ef33a13c9059a243a3c8692239abf6b, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords: []
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _AlphaMask:
-        m_Texture: {fileID: 2800000, guid: 261409aba20271346b5c84dc9449e699, type: 3}
-        m_Scale: {x: 0.005235602, y: 0.00352572}
-        m_Offset: {x: -2.5431414, y: 1.8891054}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _ColorMask: 15
-    - _CutOff: 0
-    - _FlipAlphaMask: 0
-    - _HardBlend: 0
-    - _NoOuterClip: 0
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-  m_BuildTextureStacks: []
 --- !u!1 &378200950
 GameObject:
   m_ObjectHideFlags: 0
@@ -24236,6 +24238,8 @@ Transform:
   - {fileID: 1577976192}
   - {fileID: 1575200000}
   - {fileID: 843983485}
+  - {fileID: 1339598252}
+  - {fileID: 14474074}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &483009129
@@ -24976,6 +24980,52 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 510477367}
   m_Mesh: {fileID: 4300000, guid: c58f251a22830404da819b10cd083dc1, type: 3}
+--- !u!21 &516821516
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: UI Extensions/SoftMaskShader
+  m_Shader: {fileID: 4800000, guid: 5ef33a13c9059a243a3c8692239abf6b, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaMask:
+        m_Texture: {fileID: 2800000, guid: 261409aba20271346b5c84dc9449e699, type: 3}
+        m_Scale: {x: 0.005235602, y: 0.00352572}
+        m_Offset: {x: -2.5431414, y: 1.8891054}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ColorMask: 15
+    - _CutOff: 0
+    - _FlipAlphaMask: 0
+    - _HardBlend: 0
+    - _NoOuterClip: 0
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
 --- !u!1001 &518986320
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -58830,6 +58880,52 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1039972613}
   m_Mesh: {fileID: 4300000, guid: c58f251a22830404da819b10cd083dc1, type: 3}
+--- !u!21 &1043929842
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: UI Extensions/SoftMaskShader
+  m_Shader: {fileID: 4800000, guid: 5ef33a13c9059a243a3c8692239abf6b, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaMask:
+        m_Texture: {fileID: 2800000, guid: 261409aba20271346b5c84dc9449e699, type: 3}
+        m_Scale: {x: 0.005235602, y: 0.00352572}
+        m_Offset: {x: -2.5431414, y: 1.8891054}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ColorMask: 15
+    - _CutOff: 0
+    - _FlipAlphaMask: 0
+    - _HardBlend: 0
+    - _NoOuterClip: 0
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
 --- !u!1001 &1045766213
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -64756,52 +64852,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1208157178}
   m_Mesh: {fileID: 4300000, guid: c58f251a22830404da819b10cd083dc1, type: 3}
---- !u!21 &1209105074
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: UI Extensions/SoftMaskShader
-  m_Shader: {fileID: 4800000, guid: 5ef33a13c9059a243a3c8692239abf6b, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords: []
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _AlphaMask:
-        m_Texture: {fileID: 2800000, guid: 261409aba20271346b5c84dc9449e699, type: 3}
-        m_Scale: {x: 0.005235602, y: 0.00352572}
-        m_Offset: {x: -2.5431414, y: 1.8891054}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _ColorMask: 15
-    - _CutOff: 0
-    - _FlipAlphaMask: 0
-    - _HardBlend: 0
-    - _NoOuterClip: 0
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-  m_BuildTextureStacks: []
 --- !u!1 &1209655169
 GameObject:
   m_ObjectHideFlags: 0
@@ -70904,52 +70954,68 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1261529989}
   m_Mesh: {fileID: 4300000, guid: c58f251a22830404da819b10cd083dc1, type: 3}
---- !u!21 &1262799167
-Material:
-  serializedVersion: 8
+--- !u!1001 &1261711618
+PrefabInstance:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: UI Extensions/SoftMaskShader
-  m_Shader: {fileID: 4800000, guid: 5ef33a13c9059a243a3c8692239abf6b, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords: []
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_LockedProperties: 
-  m_SavedProperties:
+  serializedVersion: 2
+  m_Modification:
     serializedVersion: 3
-    m_TexEnvs:
-    - _AlphaMask:
-        m_Texture: {fileID: 2800000, guid: 261409aba20271346b5c84dc9449e699, type: 3}
-        m_Scale: {x: 0.005235602, y: 0.00352572}
-        m_Offset: {x: -2.5431414, y: 1.8891054}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _ColorMask: 15
-    - _CutOff: 0
-    - _FlipAlphaMask: 0
-    - _HardBlend: 0
-    - _NoOuterClip: 0
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-  m_BuildTextureStacks: []
+    m_TransformParent: {fileID: 1339598252}
+    m_Modifications:
+    - target: {fileID: 1437103691187084, guid: 56ceab0a35ad6594fb8fb9cf5e7c0414, type: 3}
+      propertyPath: m_Name
+      value: SHOTGUN_Pickupable
+      objectReference: {fileID: 0}
+    - target: {fileID: 4642393715726448, guid: 56ceab0a35ad6594fb8fb9cf5e7c0414, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -9.746496
+      objectReference: {fileID: 0}
+    - target: {fileID: 4642393715726448, guid: 56ceab0a35ad6594fb8fb9cf5e7c0414, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.9226136
+      objectReference: {fileID: 0}
+    - target: {fileID: 4642393715726448, guid: 56ceab0a35ad6594fb8fb9cf5e7c0414, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -12.1994505
+      objectReference: {fileID: 0}
+    - target: {fileID: 4642393715726448, guid: 56ceab0a35ad6594fb8fb9cf5e7c0414, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7004811
+      objectReference: {fileID: 0}
+    - target: {fileID: 4642393715726448, guid: 56ceab0a35ad6594fb8fb9cf5e7c0414, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4642393715726448, guid: 56ceab0a35ad6594fb8fb9cf5e7c0414, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.713671
+      objectReference: {fileID: 0}
+    - target: {fileID: 4642393715726448, guid: 56ceab0a35ad6594fb8fb9cf5e7c0414, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4642393715726448, guid: 56ceab0a35ad6594fb8fb9cf5e7c0414, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4642393715726448, guid: 56ceab0a35ad6594fb8fb9cf5e7c0414, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 91.069
+      objectReference: {fileID: 0}
+    - target: {fileID: 4642393715726448, guid: 56ceab0a35ad6594fb8fb9cf5e7c0414, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 56ceab0a35ad6594fb8fb9cf5e7c0414, type: 3}
+--- !u!4 &1261711619 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4642393715726448, guid: 56ceab0a35ad6594fb8fb9cf5e7c0414, type: 3}
+  m_PrefabInstance: {fileID: 1261711618}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1266531089
 GameObject:
   m_ObjectHideFlags: 0
@@ -77759,6 +77825,68 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1324051105}
   m_Mesh: {fileID: 4300000, guid: c58f251a22830404da819b10cd083dc1, type: 3}
+--- !u!1001 &1328594282
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 14474074}
+    m_Modifications:
+    - target: {fileID: 1555889169097038, guid: 97dccc30e95c1a94eb60b14f716478a0, type: 3}
+      propertyPath: m_Name
+      value: MEDKIT_Pickupable
+      objectReference: {fileID: 0}
+    - target: {fileID: 4336931001802816, guid: 97dccc30e95c1a94eb60b14f716478a0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -11.290251
+      objectReference: {fileID: 0}
+    - target: {fileID: 4336931001802816, guid: 97dccc30e95c1a94eb60b14f716478a0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.1696136
+      objectReference: {fileID: 0}
+    - target: {fileID: 4336931001802816, guid: 97dccc30e95c1a94eb60b14f716478a0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10.335977
+      objectReference: {fileID: 0}
+    - target: {fileID: 4336931001802816, guid: 97dccc30e95c1a94eb60b14f716478a0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4336931001802816, guid: 97dccc30e95c1a94eb60b14f716478a0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4336931001802816, guid: 97dccc30e95c1a94eb60b14f716478a0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4336931001802816, guid: 97dccc30e95c1a94eb60b14f716478a0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4336931001802816, guid: 97dccc30e95c1a94eb60b14f716478a0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4336931001802816, guid: 97dccc30e95c1a94eb60b14f716478a0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4336931001802816, guid: 97dccc30e95c1a94eb60b14f716478a0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 97dccc30e95c1a94eb60b14f716478a0, type: 3}
+--- !u!4 &1328594283 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4336931001802816, guid: 97dccc30e95c1a94eb60b14f716478a0, type: 3}
+  m_PrefabInstance: {fileID: 1328594282}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1332891914
 GameObject:
   m_ObjectHideFlags: 0
@@ -78433,6 +78561,41 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4000011496293724, guid: 591d5d43391e994439ef8c7e8a95331b, type: 3}
   m_PrefabInstance: {fileID: 938735265}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1339598251
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1339598252}
+  m_Layer: 0
+  m_Name: Shotgun
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1339598252
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1339598251}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1261711619}
+  - {fileID: 1817226287}
+  - {fileID: 1416463224}
+  - {fileID: 222373179}
+  m_Father: {fileID: 482345376}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1342332574
 GameObject:
   m_ObjectHideFlags: 0
@@ -81103,6 +81266,68 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1416112867}
   m_Mesh: {fileID: 4300000, guid: c58f251a22830404da819b10cd083dc1, type: 3}
+--- !u!1001 &1416463223
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1339598252}
+    m_Modifications:
+    - target: {fileID: 1936003878107028, guid: a136ff20b14b2b34c9510f9f650ccedf, type: 3}
+      propertyPath: m_Name
+      value: SHOTGUN_Ammo_Pickupable (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4378385746508442, guid: a136ff20b14b2b34c9510f9f650ccedf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10.078402
+      objectReference: {fileID: 0}
+    - target: {fileID: 4378385746508442, guid: a136ff20b14b2b34c9510f9f650ccedf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.5366136
+      objectReference: {fileID: 0}
+    - target: {fileID: 4378385746508442, guid: a136ff20b14b2b34c9510f9f650ccedf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -11.834376
+      objectReference: {fileID: 0}
+    - target: {fileID: 4378385746508442, guid: a136ff20b14b2b34c9510f9f650ccedf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4378385746508442, guid: a136ff20b14b2b34c9510f9f650ccedf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4378385746508442, guid: a136ff20b14b2b34c9510f9f650ccedf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4378385746508442, guid: a136ff20b14b2b34c9510f9f650ccedf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4378385746508442, guid: a136ff20b14b2b34c9510f9f650ccedf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4378385746508442, guid: a136ff20b14b2b34c9510f9f650ccedf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4378385746508442, guid: a136ff20b14b2b34c9510f9f650ccedf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a136ff20b14b2b34c9510f9f650ccedf, type: 3}
+--- !u!4 &1416463224 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4378385746508442, guid: a136ff20b14b2b34c9510f9f650ccedf, type: 3}
+  m_PrefabInstance: {fileID: 1416463223}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1419582422
 GameObject:
   m_ObjectHideFlags: 0
@@ -100214,6 +100439,68 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1816777978}
   m_Mesh: {fileID: 4300000, guid: c58f251a22830404da819b10cd083dc1, type: 3}
+--- !u!1001 &1817226286
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1339598252}
+    m_Modifications:
+    - target: {fileID: 1936003878107028, guid: a136ff20b14b2b34c9510f9f650ccedf, type: 3}
+      propertyPath: m_Name
+      value: SHOTGUN_Ammo_Pickupable
+      objectReference: {fileID: 0}
+    - target: {fileID: 4378385746508442, guid: a136ff20b14b2b34c9510f9f650ccedf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10.078402
+      objectReference: {fileID: 0}
+    - target: {fileID: 4378385746508442, guid: a136ff20b14b2b34c9510f9f650ccedf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.5366136
+      objectReference: {fileID: 0}
+    - target: {fileID: 4378385746508442, guid: a136ff20b14b2b34c9510f9f650ccedf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -11.653708
+      objectReference: {fileID: 0}
+    - target: {fileID: 4378385746508442, guid: a136ff20b14b2b34c9510f9f650ccedf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4378385746508442, guid: a136ff20b14b2b34c9510f9f650ccedf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4378385746508442, guid: a136ff20b14b2b34c9510f9f650ccedf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4378385746508442, guid: a136ff20b14b2b34c9510f9f650ccedf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4378385746508442, guid: a136ff20b14b2b34c9510f9f650ccedf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4378385746508442, guid: a136ff20b14b2b34c9510f9f650ccedf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4378385746508442, guid: a136ff20b14b2b34c9510f9f650ccedf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a136ff20b14b2b34c9510f9f650ccedf, type: 3}
+--- !u!4 &1817226287 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4378385746508442, guid: a136ff20b14b2b34c9510f9f650ccedf, type: 3}
+  m_PrefabInstance: {fileID: 1817226286}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1818329186
 GameObject:
   m_ObjectHideFlags: 0
@@ -104127,6 +104414,52 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4000011035133264, guid: 95da9912935f49e4bac6440555493088, type: 3}
   m_PrefabInstance: {fileID: 1284206027}
   m_PrefabAsset: {fileID: 0}
+--- !u!21 &1956158710
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: UI Extensions/SoftMaskShader
+  m_Shader: {fileID: 4800000, guid: 5ef33a13c9059a243a3c8692239abf6b, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaMask:
+        m_Texture: {fileID: 2800000, guid: 261409aba20271346b5c84dc9449e699, type: 3}
+        m_Scale: {x: 0.005235602, y: 0.00352572}
+        m_Offset: {x: -2.5431414, y: 1.8891054}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ColorMask: 15
+    - _CutOff: 0
+    - _FlipAlphaMask: 0
+    - _HardBlend: 0
+    - _NoOuterClip: 0
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
 --- !u!1 &1956512590
 GameObject:
   m_ObjectHideFlags: 0
@@ -104376,52 +104709,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1961165856}
   m_Mesh: {fileID: 4300000, guid: c58f251a22830404da819b10cd083dc1, type: 3}
---- !u!21 &1961828261
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: UI Extensions/SoftMaskShader
-  m_Shader: {fileID: 4800000, guid: 5ef33a13c9059a243a3c8692239abf6b, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords: []
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _AlphaMask:
-        m_Texture: {fileID: 2800000, guid: 261409aba20271346b5c84dc9449e699, type: 3}
-        m_Scale: {x: 0.005235602, y: 0.00352572}
-        m_Offset: {x: -2.5431414, y: 1.8891054}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _ColorMask: 15
-    - _CutOff: 0
-    - _FlipAlphaMask: 0
-    - _HardBlend: 0
-    - _NoOuterClip: 0
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-  m_BuildTextureStacks: []
 --- !u!1 &1961883134
 GameObject:
   m_ObjectHideFlags: 0
@@ -105916,6 +106203,52 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1997596376}
   m_Mesh: {fileID: 4300000, guid: c58f251a22830404da819b10cd083dc1, type: 3}
+--- !u!21 &1997992220
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: UI Extensions/SoftMaskShader
+  m_Shader: {fileID: 4800000, guid: 5ef33a13c9059a243a3c8692239abf6b, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaMask:
+        m_Texture: {fileID: 2800000, guid: 261409aba20271346b5c84dc9449e699, type: 3}
+        m_Scale: {x: 0.005235602, y: 0.00352572}
+        m_Offset: {x: -2.5431414, y: 1.8891054}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ColorMask: 15
+    - _CutOff: 0
+    - _FlipAlphaMask: 0
+    - _HardBlend: 0
+    - _NoOuterClip: 0
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
 --- !u!1 &1998706728
 GameObject:
   m_ObjectHideFlags: 0
@@ -110527,6 +110860,52 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3c9a1bb4f46f5ad46ae148c762c4f41a, type: 3}
+--- !u!21 &2120718899
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: UI Extensions/SoftMaskShader
+  m_Shader: {fileID: 4800000, guid: 5ef33a13c9059a243a3c8692239abf6b, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaMask:
+        m_Texture: {fileID: 2800000, guid: 261409aba20271346b5c84dc9449e699, type: 3}
+        m_Scale: {x: 0.005235602, y: 0.00352572}
+        m_Offset: {x: -2.5431414, y: 1.8891054}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ColorMask: 15
+    - _CutOff: 0
+    - _FlipAlphaMask: 0
+    - _HardBlend: 0
+    - _NoOuterClip: 0
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
 --- !u!1001 &2122423245
 PrefabInstance:
   m_ObjectHideFlags: 0
